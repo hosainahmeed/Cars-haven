@@ -3,11 +3,12 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import { RouterProvider } from "react-router-dom";
 import router from "./route/route";
+import AuthProvider from "./pages/AuthenticationPages/AuthProvider";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div className="max-w-screen-2xl mx-auto">
+    <AuthProvider>
       <RouterProvider router={router} />
-    </div>
+    </AuthProvider>
   </StrictMode>
 );

@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Front Brake Disc",
+      "image": "https://i.pinimg.com/736x/28/a6/e8/28a6e88c3ba40ba2bc237833234255bb.jpg",
+      "price": 75.99,
+      "rating": 4.7
+    },
+    {
+      "name": "Rear View Mirrors",
+      "image": "https://i.pinimg.com/564x/28/a6/e8/28a6e88c3ba40ba2bc237833234255bb.jpg",
+      "price": 25.50,
+      "rating": 4
+    },
+    {
+      "name": "Exhaust Muffler",
+      "image": "https://i.pinimg.com/75x75_RS/7a/4a/38/7a4a38a43cd3ecd1bb0cacb7f294dca2.jpg",
+      "price": 120.00,
+      "rating": 4.8
+    },
+    {
+      "name": "LED Headlight",
+      "image": "https://i.pinimg.com/236x/28/a6/e8/28a6e88c3ba40ba2bc237833234255bb.jpg",
+      "price": 45.99,
+      "rating": 4.6
+    },
+    {
+      "name": "Alloy Wheels",
+      "image": "https://i.pinimg.com/236x/28/a6/e8/28a6e88c3ba40ba2bc237833234255bb.jpg",
+      "price": 150.00,
+      "rating": 2.9
+    },
+    {
+      "name": "Engine Guard",
+      "image": "https://i.pinimg.com/236x/7a/d3/80/7ad380876cfc5aa02dfb42db7e48e713.jpg",
+      "price": 55.49,
+      "rating": 4.5
+    },
+    {
+      "name": "Seat Cushion",
+      "image": "https://i.pinimg.com/236x/c1/e4/87/c1e4874202637503ea44f19959dbd0c6.jpg",
+      "price": 30.99,
+      "rating": 4.3
+    },
+    {
+      "name": "Chain and Sprocket Kit",
+      "image": "https://i.pinimg.com/236x/95/32/aa/9532aaed3214feef7847baa94098edb8.jpg",
+      "price": 65.00,
+      "rating": 4.7
+    },
+    {
+      "name": "Fuel Tank",
+      "image": "https://i.pinimg.com/236x/e4/4a/0c/e44a0c93a5f13a655a5c35bd51de3927.jpg",
+      "price": 110.00,
+      "rating": 4.6
+    },
+    {
+      "name": "Handlebar Grips",
+      "image": "https://i.pinimg.com/236x/3f/9a/7b/3f9a7b728b776b38825395945e18ae1d.jpg",
+      "price": 18.75,
+      "rating": 4.2
+    }
+  ]
+  

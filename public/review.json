@@ -1,0 +1,63 @@
+[
+    {
+      "name": "John Doe",
+      "image": "https://example.com/images/john_doe.jpg",
+      "review": "Amazing service! I couldn't be happier with the experience.",
+      "rating": 4.9
+    },
+    {
+      "name": "Jane Smith",
+      "image": "https://example.com/images/jane_smith.jpg",
+      "review": "Highly professional and very efficient. Would recommend to anyone!",
+      "rating": 5.0
+    },
+    {
+      "name": "Carlos Rivera",
+      "image": "https://example.com/images/carlos_rivera.jpg",
+      "review": "Great team, very supportive and quick to respond to all my inquiries.",
+      "rating": 4.8
+    },
+    {
+      "name": "Emily Clark",
+      "image": "https://example.com/images/emily_clark.jpg",
+      "review": "Had a fantastic experience! Everything was handled smoothly.",
+      "rating": 4.7
+    },
+    {
+      "name": "Michael Brown",
+      "image": "https://example.com/images/michael_brown.jpg",
+      "review": "The customer service was top-notch, and I felt valued throughout the process.",
+      "rating": 4.6
+    },
+    {
+      "name": "Sophia Lee",
+      "image": "https://example.com/images/sophia_lee.jpg",
+      "review": "I was impressed by their attention to detail and the quality of work.",
+      "rating": 4.9
+    },
+    {
+      "name": "Dav_id Johnson",
+      "image": "https://example.com/images/dav_id_johnson.jpg",
+      "review": "Very reliable and professional service. Will definitely come back.",
+      "rating": 4.5
+    },
+    {
+      "name": "Isabella Martinez",
+      "image": "https://example.com/images/isabella_martinez.jpg",
+      "review": "Exceeded my expectations! The team went above and beyond.",
+      "rating": 5.0
+    },
+    {
+      "name": "James Wilson",
+      "image": "https://example.com/images/james_wilson.jpg",
+      "review": "Great value for the price. The results were excellent.",
+      "rating": 4.3
+    },
+    {
+      "name": "Olivia Davis",
+      "image": "https://example.com/images/olivia_davis.jpg",
+      "review": "Super friendly staff and very knowledgeable. Made the whole process easy.",
+      "rating": 4.7
+    }
+  ]
+  

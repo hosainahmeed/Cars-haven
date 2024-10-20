@@ -1,0 +1,92 @@
+[
+    {
+        "name": "John Doe",
+        "facility": "Engine Expert",
+        "image": "https://i.ibb.co/T2cpBd5/888.jpg",
+        "facebook": "https://facebook.com/johndoe",
+        "twitter": "https://twitter.com/johndoe",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "instagram": "https://instagram.com/johndoe"
+    },
+    {
+        "name": "Sarah Smith",
+        "facility": "Transmission Specialist",
+        "image": "https://i.ibb.co/ydCbDN3/5555.jpg",
+        "facebook": "https://facebook.com/sarahsmith",
+        "twitter": "https://twitter.com/sarahsmith",
+        "linkedin": "https://linkedin.com/in/sarahsmith",
+        "instagram": "https://instagram.com/sarahsmith"
+    },
+    {
+        "name": "Mike Johnson",
+        "facility": "Suspension Technician",
+        "image": "https://i.ibb.co/R6Z2nFM/55.jpg",
+        "facebook": "https://facebook.com/mikejohnson",
+        "twitter": "https://twitter.com/mikejohnson",
+        "linkedin": "https://linkedin.com/in/mikejohnson",
+        "instagram": "https://instagram.com/mikejohnson"
+    },
+    {
+        "name": "Emily Davis",
+        "facility": "Brake Specialist",
+        "image": "https://i.ibb.co/5MvmD2g/88.jpg",
+        "facebook": "https://facebook.com/emilydavis",
+        "twitter": "https://twitter.com/emilydavis",
+        "linkedin": "https://linkedin.com/in/emilydavis",
+        "instagram": "https://instagram.com/emilydavis"
+    },
+    {
+        "name": "James Wilson",
+        "facility": "Tire Expert",
+        "image": "https://i.pinimg.com/474x/4c/6b/2b/4c6b2b6177657bac920f2fd47afc42f4.jpg",
+        "facebook": "https://facebook.com/jameswilson",
+        "twitter": "https://twitter.com/jameswilson",
+        "linkedin": "https://linkedin.com/in/jameswilson",
+        "instagram": "https://instagram.com/jameswilson"
+    },
+    {
+        "name": "Olivia Brown",
+        "facility": "Paint Specialist",
+        "image": "https://i.pinimg.com/474x/32/72/cf/3272cffcb12e91f58c4a88deeea118d7.jpg",
+        "facebook": "https://facebook.com/oliviabrown",
+        "twitter": "https://twitter.com/oliviabrown",
+        "linkedin": "https://linkedin.com/in/oliviabrown",
+        "instagram": "https://instagram.com/oliviabrown"
+    },
+    {
+        "name": "Henry Clark",
+        "facility": "Interior Designer",
+        "image": "https://i.pinimg.com/474x/0b/a3/76/0ba37635ec30a1b226d6de2b17e2388a.jpg",
+        "facebook": "https://facebook.com/henryclark",
+        "twitter": "https://twitter.com/henryclark",
+        "linkedin": "https://linkedin.com/in/henryclark",
+        "instagram": "https://instagram.com/henryclark"
+    },
+    {
+        "name": "Sophia Moore",
+        "facility": "AC System Expert",
+        "image": "https://i.ibb.co/wh7t3N3/555.jpg",
+        "facebook": "https://facebook.com/sophiamoore",
+        "twitter": "https://twitter.com/sophiamoore",
+        "linkedin": "https://linkedin.com/in/sophiamoore",
+        "instagram": "https://instagram.com/sophiamoore"
+    },
+    {
+        "name": "Ethan Lewis",
+        "facility": "Battery Specialist",
+        "image": "https://i.pinimg.com/474x/82/01/26/820126a1774e6e84fcd1b031e964a79e.jpg",
+        "facebook": "https://facebook.com/ethanlewis",
+        "twitter": "https://twitter.com/ethanlewis",
+        "linkedin": "https://linkedin.com/in/ethanlewis",
+        "instagram": "https://instagram.com/ethanlewis"
+    },
+    {
+        "name": "Lily Scott",
+        "facility": "Detailing Expert",
+        "image": "https://i.pinimg.com/474x/a8/94/d4/a894d44fb810eb18e65a2e6099fe42ff.jpg",
+        "facebook": "https://facebook.com/lilyscott",
+        "twitter": "https://twitter.com/lilyscott",
+        "linkedin": "https://linkedin.com/in/lilyscott",
+        "instagram": "https://instagram.com/lilyscott"
+    }
+]
