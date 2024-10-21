@@ -5,6 +5,7 @@ import { FaEyeLowVision } from "react-icons/fa6";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import loginImage from "../../../src/assets/images/login/login.svg";
 import useAuth from "../../hook/useAuth";
+import axios from "axios";
 function Login() {
   const [showpass, setShowpass] = useState(false);
   const {
@@ -21,10 +22,22 @@ function Login() {
     console.log(data);
     const { email, password } = data;
     signIn(email, password).then((res) => {
-      const user = res.user;
-      if (user) {
-        navigate(location?.state ? location?.state : "/");
-      }
+      const loggedinUser = res.user;
+      console.log(loggedinUser);
+
+      const user = { email };
+
+      axios
+        .post("http://localhost:5000/jwt", user, { withCredentials: true })
+        .then((res) => {
+          if (res.data.success) {
+            console.log(res.data);
+            navigate(location?.state || "/");
+          }
+        })
+        .catch((error) => {
+          console.error("Error generating JWT or navigating:", error);
+        });
     });
     reset();
   };

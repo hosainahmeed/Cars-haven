@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import { useForm } from "react-hook-form"; // Importing React Hook Form
 import useAuth from "../../../hook/useAuth";
 import PagesBanner from "../../../component/PagesBanner/PagesBanner";
+import axios from "axios";
 
 function Booking() {
   const product = useLoaderData();
@@ -18,7 +19,24 @@ function Booking() {
   }, []);
 
   const onSubmit = (data) => {
-    console.log("Form Data: ", data);
+    const { name, price, image } = product;
+    const { firstName, email, phone, massage } = data;
+    const bookItemDetails = {
+      productName: name,
+      userName: firstName,
+      email,
+      userPhone: phone,
+      productPrice: price,
+      productImage: image,
+      massage,
+    };
+    axios
+      .post("http://localhost:5000/booking", bookItemDetails, {
+        withCredentials: true,
+      })
+      .then((res) => {
+        console.log(res.data);
+      });
   };
 
   if (!product) {

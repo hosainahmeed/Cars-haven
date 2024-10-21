@@ -32,7 +32,7 @@ export default function Banner() {
 
   return (
     <>
-      <div id="banner" className="relative py-8 w-full">
+      <div id="banner" className="relative w-full">
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           {/* First Slide */}
           <SwiperSlide>

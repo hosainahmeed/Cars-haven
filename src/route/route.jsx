@@ -29,6 +29,10 @@ const router = createBrowserRouter([
         element: <ServicesPage></ServicesPage>,
       },
       {
+        path: "services",
+        element: <ServicesPage></ServicesPage>,
+      },
+      {
         path: "/product/:id",
         element: (
           <PrivetRoute>

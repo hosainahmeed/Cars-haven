@@ -6,7 +6,7 @@ import useAuth from "../../../../hook/useAuth";
 function Navbar() {
   const location = useLocation();
   const changeDirectory = location.pathname !== "/";
-  const { logOut } = useAuth();
+  const { user, logOut } = useAuth();
   const logoutHandle = () => {
     logOut();
   };
@@ -86,9 +86,6 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <button onClick={logoutHandle}>Logout</button>
-            </li>
-            <li>
               <Link to="services" className="hover:text-[#ff3811]">
                 Services
               </Link>
@@ -108,12 +105,23 @@ function Navbar() {
                 Contact
               </Link>
             </li>
+            {user?.email ? (
+              <li>
+                <button onClick={logoutHandle}>Logout</button>
+              </li>
+            ) : (
+              <li>
+                <NavLink to="/signin">login</NavLink>
+              </li>
+            )}
           </ul>
         </div>
 
         {/* Right Icons and Button */}
         <div className="navbar-end flex items-center space-x-4">
-          <FaShoppingCart className="text-black cursor-pointer" />
+          <NavLink to="/services">
+            <FaShoppingCart className="text-black cursor-pointer" />
+          </NavLink>
           <button className="btn text-[#ff3811] border-2 border-[#ff3811] bg-transparent hover:text-white hover:bg-[#ff3811]">
             Appointment
           </button>
